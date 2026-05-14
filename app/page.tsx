@@ -50,7 +50,7 @@ export default function Home() {
 
       // Function to update location details
       const updateLocationDetails = (
-        position: google.maps.LatLng | google.maps.LatLngLiteral
+        position: any
       ) => {
         geocoder.geocode(
           { location: position },
